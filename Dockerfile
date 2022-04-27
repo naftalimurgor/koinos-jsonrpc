@@ -1,5 +1,5 @@
 
-FROM golang:1.16.2-alpine as builder
+FROM golang:1.18-alpine as builder
 
 ADD . /koinos-jsonrpc
 WORKDIR /koinos-jsonrpc
